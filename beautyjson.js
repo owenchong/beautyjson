@@ -48,7 +48,7 @@ beautyJson = (function(){
 			var hasProperty = false;
 			for(var key in obj){
 				hasProperty = true;
-				buffer.push(' \n');
+				buffer.push('\n');
 				addSpace(buffer,level+1);
 				val = obj[key];
 				buffer.push('"',key,'" : ',formatObj(val,level+1));
